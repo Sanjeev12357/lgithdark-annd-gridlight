@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cell{
+  background-color: transparent;
+  border:1px solid black;
+  
+  height:100px;
+  width:100px;
+
+
+
+  
+}
+
+.cell-activated{
+  background-color: green;
+}

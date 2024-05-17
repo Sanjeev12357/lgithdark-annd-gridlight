@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import appStore from './appStore';
 import Home from './pages/Home';
 import Memo from './pages/Memo';
+import Pagination from './pages/Pagination';
 
 
 const App = () => {
@@ -13,6 +14,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/memo' element={<Memo/>}/>
+          <Route path='/page' element={<Pagination/>}/>
+
         </Routes>
       </BrowserRouter>
     </Provider>
